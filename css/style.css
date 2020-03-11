@@ -1,0 +1,111 @@
+p.intro {
+  border-radius: 4px;
+  background-color: #3f8d9d;
+  color: #fff;
+  padding: 7px 15px;
+  margin-top: 5px;
+  font-size: 1.5em;
+  border: 1px solid #3f8d9d;
+}
+h1 {
+  margin: 5px;
+  text-align: right;
+  color: #377d8b;
+}
+
+.my_header {
+  color: #377d8b;
+}
+
+/* footer */
+
+#footer {
+  background-color: #9dcfd8;
+  margin-top: 10px;
+  padding: 0 0 30px 0;
+  color: #377d8b;
+  height: 50.625vw; /* ratio = 9/16 * 90 = 50.625 */
+  max-height: 20vh;
+}
+
+#footer p.copy a {
+  font-size: 0.9em;
+  color: #306c78;
+}
+
+#footer p.cright {
+  font-size: 0.9em;
+  float: right;
+  margin-top: -28px;
+  margin-right: 10px;
+}
+
+#footer p.ncright {
+  font-size: 0.9em;
+  float: right;
+  margin-top: -28px;
+  margin-right: 50px;
+}
+
+#footer p.ncright a {
+  color: #306c78;
+}
+
+#footer p.cright a {
+  color: #306c78;
+}
+
+@media (min-width: 200px) {
+  #footer {
+    padding: 0 20px 20px 20px;
+  }
+}
+
+@media (min-width: 200px) {
+  #footer p.copy {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 600px) {
+  #footer {
+    padding: 0 25px 30px 25px;
+  }
+}
+
+@media (min-width: 600px) {
+  #footer p.copy {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  #footer p.cright {
+    margin-top: 3px;
+    float: left;
+  }
+}
+
+@media (min-width: 892px) {
+  #footer {
+    padding: 0 30px 30px 30px;
+  }
+}
+
+@media (min-width: 892px) {
+  #footer p.copy {
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #footer {
+    padding: 0 60px 30px 60px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #footer p.copy {
+    margin-top: 15px;
+  }
+}
